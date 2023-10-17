@@ -4,10 +4,162 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
     <!-- Reset CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Embed Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body style="height: 5000px">
+    <!-- Header -->
+    <header class="header sticky">
+      <div class="container">
+        <a href="#!"
+          ><img
+            class="header__logo logo"
+            src="./assets/icons/Logo.png"
+            alt="Besnik."
+        /></a>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="#!" title="Home">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!" title="Features">Features</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!" title="Pricing">Pricing</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!" title="About">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!" title="Contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-cta">
+          <a href="#!" class="header-cta__signin">Sign in</a>
+          <a href="#!" class="header-cta__signup btn">Sign up</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <section class="hero__content">
+          <p class="hero__smile">😎 EASY LEARNING PLATFORM</p>
+          <h1 class="hero__heading">Words learner come here.</h1>
+          <p class="hero__desc">
+            Build skills with courses, certificates, and get online knowledge
+            from our world-class platform.
+          </p>
+          <div class="hero-cta">
+            <a href="#!" class="hero-cta__btn btn">Get Started</a>
+            <button class="hero-cta__play">
+              <img src="./assets/icons/Play.svg" alt="" />
+            </button>
+          </div>
+        </section>
+        <div class="hero-media">
+          <figure>
+            <img
+              src="./assets/imgs/Hero.jpg"
+              alt=""
+              class="hero-media__image"
+            />
+          </figure>
+          <div class="courses">
+            <div class="courses__book">
+              <div class="courses__space"></div>
+            </div>
+            <span class="courses__title">Courses 1000+</span>
+          </div>
+          <div class="schedules"></div>
+          <div class="students"></div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
