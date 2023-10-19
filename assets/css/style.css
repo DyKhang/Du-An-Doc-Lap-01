@@ -596,3 +596,169 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
 }
+
+/* Members */
+.members {
+  padding-top: 264px;
+}
+
+.members .container {
+  position: relative;
+}
+
+.members__icon {
+  margin-top: 37px;
+}
+
+.members__quote {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.members__name {
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+  color: #070707;
+  gap: 5px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.members__name::before {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 2px;
+  background-color: #070707;
+}
+
+.members__student {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.members__buttons {
+  margin-top: 52px;
+  padding-bottom: 37px;
+  display: flex;
+  gap: 30px;
+}
+
+.members__button {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: #2ac9bf;
+  cursor: pointer;
+}
+
+.members__button:hover {
+  opacity: 0.8;
+}
+
+.members__content {
+  width: 35.81%;
+}
+
+.members__image {
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.members__image:first-child {
+  top: 0;
+  left: 635px;
+  width: 92px;
+  height: 92px;
+  background-color: #1ebfc1;
+}
+
+.members__image:nth-child(2) {
+  left: 764px;
+  top: 107px;
+  width: 235px;
+  height: 235px;
+  background-color: #ff8282;
+}
+
+.members__image:nth-child(3) {
+  top: 19px;
+  right: 0;
+  width: 110px;
+  height: 110px;
+  background-color: #bf83ff;
+}
+
+.members__image:nth-child(4) {
+  top: 258px;
+  left: 491px;
+  width: 78px;
+  height: 78px;
+  background-color: #ffc147;
+}
+
+.members__image:nth-child(5) {
+  left: 703px;
+  bottom: 0;
+  width: 78px;
+  height: 78px;
+  background-color: #ff947a;
+}
+
+.members__image:last-child {
+  bottom: 29px;
+  right: 32px;
+  width: 78px;
+  height: 78px;
+  background-color: #b1dfdc;
+}
+
+/* Admit */
+.admit {
+  margin-top: 130px;
+  padding-top: 76px;
+  padding-bottom: 88px;
+  background-color: #def6f5;
+}
+
+.admit .container {
+  display: flex;
+  align-items: center;
+  gap: 410px;
+}
+
+.admit__heading {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.admit__desc {
+  margin-top: 28px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.admit__btn {
+  font-family: Poppins;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
