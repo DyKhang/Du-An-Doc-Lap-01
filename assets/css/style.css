@@ -520,7 +520,7 @@ a {
   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
 
-.popular-item__heading a {
+.popular-item__heading {
   color: #0d1111;
   font-size: 2.2rem;
   font-weight: 700;
@@ -569,4 +569,30 @@ a {
   display: flex;
   gap: 10px;
   margin-top: 18px;
+}
+
+/* Data */
+.data {
+  padding-top: 265px;
+}
+
+.data .container {
+  width: 862px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.data__number {
+  text-align: center;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.data__title {
+  margin-top: 24px;
+  text-align: center;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
