@@ -3,6 +3,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
 }
@@ -47,7 +48,7 @@ a {
   z-index: 2;
 }
 
-.sticky {
+.header--sticky {
   position: sticky;
   top: -42px;
 }
@@ -521,6 +522,7 @@ a {
 }
 
 .popular-item__heading {
+  display: block;
   color: #0d1111;
   font-size: 2.2rem;
   font-weight: 700;
